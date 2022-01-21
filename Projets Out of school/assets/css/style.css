@@ -1,0 +1,71 @@
+html, body{
+    height: 100%;
+    background-image: linear-gradient(90deg, #426c94 0%, #b8e4fa 100%);;
+    
+}
+/* linear-gradient(90deg, #426c94 0%, #b8e4fa 100%); */
+h1{
+    color: rgb(248, 248, 246);
+}
+
+h2{
+    text-decoration: underline;
+   font-style: normal;
+}
+
+.dotted{
+    border-radius: 10px;
+}
+
+ /* image de l'entete  */
+.bg-usb{
+    background-image: url(../img/fond.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 40%;
+}
+
+.alert-transparent{
+    background-color:rgba(0,0,0,.5);
+    border-color: #c3e6cb;
+    height: 100%;
+}
+
+.text{
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 6;
+overflow: hidden;
+text-align: justify;
+font-size: .8em;
+}
+
+h5{
+    display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 1;
+overflow: hidden;
+}
+#filmTable{
+    background-color: #EEE;
+}
+
+.fa-star{
+    color:darkorange;
+}
+a{
+  color: rgb(128, 189, 230);
+}
+form{
+    margin-left: 20cm;
+}
+#papier{
+    position: fixed;
+    margin:auto;
+    margin-top: 5%;
+}
+form{
+    position: absolute;
+    margin: auto;
+    margin-top:   4.2cm;
+}
